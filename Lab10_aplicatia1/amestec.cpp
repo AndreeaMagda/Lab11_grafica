@@ -25,20 +25,20 @@ void CALLBACK display()
 	glRectf(0.0, 0.0, 0.5, 1.0);
 	glFlush();
 
-	Sleep(2000);
+	Sleep(1000);
 
 	glColor4f(0.0, 1.0, 0.0, 0.75); // dreptunghiul verde
 	glRectf(0.0, 0.0, 1.0, 0.5);
 	glFlush();
 
-	Sleep(2000);
+	Sleep(1000);
 
 	// deseneaza doua patrate care se suprapun dreapta sus
 	glColor4f(0.0, 1.0, 0.0, 0.75); // patratul verde
 	glRectf(0.5, 0.5, 1.0, 1.0);
 	glFlush();
 
-	Sleep(2000);
+	Sleep(1000);
 
 	glColor4f(1.0, 0.0, 0.0, 0.75); // patratul rosu
 	glRectf(0.5, 0.5, 1.0, 1.0);

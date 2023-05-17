@@ -50,11 +50,11 @@ void CALLBACK display()
 
 	if (poz_viz) {
 		//priveste din fata
-		gluLookAt(0.0, 0.0, 9.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
+		gluLookAt(0.0, 0.0, -9.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
 	}
 	else {
 		//priveste din spate
-		gluLookAt(0.0, 0.0, -9.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
+		gluLookAt(0.0, 0.0, 9.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
 	}
 	
 	glPushMatrix();
